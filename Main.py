@@ -15,5 +15,3 @@ def analizar_paquete(paquete):
             
 # Capturar tráfico en la red
 sniff(prn=analizar_paquete, store=0, count=100)
-
-#kal#a
